@@ -1,0 +1,28 @@
+{
+  "name": "wedding-invitation-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "howler": "^2.2.3",
+    "lottie-web": "^5.7.13",
+    "prismjs": "^1.24.1",
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.3",
+    "@types/node": "^16.7.2",
+    "@types/prismjs": "^1.16.6",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "vite-plugin-pwa": "workspace:*",
+    "vue-tsc": "^0.3.0"
+  }
+}
